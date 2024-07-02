@@ -3,15 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu Projeto com Tailwind CSS</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <title>Education Platform</title>
   <link href="/src/styles.css" rel="stylesheet">
 </head>
 <body>
-  <header class="bg-blue-500 text-white p-4">
-    <h1 class="text-3xl">Meu Projeto com Tailwind CSS</h1>
+  <header class="bg-blue-400 text-white p-4">
+    <h1 class="header text-3xl font-semibold cursor-pointer">Education Platform</h1>
+    <ul class="">
+        <li class="mr-7" href="/">Home</li>
+        <li class="mr-7" href="/">Courses</li>
+        <li class="mr-7" href="/">Pricing</li>
+        <li class="mr-7" href="/">Reviews</li>
+        <button class="bg-blue-500">Sign Up</button>
+    </ul>
   </header>
-  <main class="p-4">
-    <p class="text-gray-700">Este é o conteúdo do meu site.</p>
+  <main class="p-16">
+    <section class="min-h-screen justify-center flex align-middle">
+        <div class="container justify-around">
+            <div class="container-img">
+                <img src="https://i.pinimg.com/564x/c1/41/1b/c1411b61a476301ac827aacfb9556b93.jpg" class="w-6" alt="person" srcset="">
+            </div>
+            <div class="container-oriation">
+                <h1 class="text-5xl font-semibold">Learn without <br> limits and spread <br> knowledge.</h1>
+                <p class="max-w-lg mt-10 text-justify text-xl font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ducimus velit, veniam eaque dolore unde earum voluptatibus itaque non quasi nobis expedita pariatur voluptates ab assumenda, doloribus sunt exercitationem? Doloribus?</p>
+
+                <div class="container-btn-etc flex mt-10">
+                    <button class="mr-8 bg-blue-400 p-3 rounded-3xl text-white">See Courses</button>
+                    <button class="bg-blue-400 px-4 rounded-full text-blue-100">▶</button>
+                    <h2 class="mt-3 ml-3">Watch Video</h2>
+                </div>
+            </div>
+            
+            
+
+        </div>
+
+    </section>
   </main>
 </body>
 </html>

@@ -1,7 +1,9 @@
 {
   "devDependencies": {
-    "tailwindcss": "^3.4.4",
-    "vite": "^5.3.2"
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^2.2.4",
+    "vite": "^2.4.4"
   },
   "name": "education",
   "version": "1.0.0",
@@ -66,7 +68,6 @@
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
     "pirates": "^4.0.6",
-    "postcss": "^8.4.39",
     "postcss-import": "^15.1.0",
     "postcss-js": "^4.0.1",
     "postcss-load-config": "^4.0.2",
@@ -101,6 +102,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "build:css": "postcss src/styles.css -o dist/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "imneli",
