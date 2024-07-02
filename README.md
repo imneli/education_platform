@@ -2,6 +2,8 @@
 
 This is a project that I built using `Tailwind CSS`. Tailwind CSS is a utility-first CSS `framework` that allows for rapid development of custom designs.
 
+<img src="./assets/img/educational.png">
+
 # Features
 
 Uses Tailwind CSS for styling
