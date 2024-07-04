@@ -63,3 +63,13 @@ header > ul > li {
 .content { 
     height: 600px;
 }
+
+/* scroll reveal */
+
+.container-img {
+    visibility: hidden;
+}
+
+.container-oriation {
+    visibility: hidden;
+}

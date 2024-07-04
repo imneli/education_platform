@@ -6,20 +6,22 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
   <title>Education Platform</title>
   <link href="/src/styles.css" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./assets/js/reveal.js" defer></script>
 </head>
 <body>
   <header class="bg-blue-400 text-white p-4">
     <h1 class="header text-3xl font-semibold cursor-pointer">Education Platform</h1>
     <ul class="">
-        <li class="mr-7" href="/">Home</li>
-        <li class="mr-7" href="/">Courses</li>
-        <li class="mr-7" href="/">Pricing</li>
-        <li class="mr-7" href="/">Reviews</li>
+        <li class="mr-7" href="/"><a href="#section-1">Home</a></li>
+        <li class="mr-7" href="/"><a href="#section-2">Courses</a></li>
+        <li class="mr-7" href="/"><a href="">Pricing</a></li>
+        <li class="mr-7" href="/"><a href="">Reviews</a></li>
         <button class="bg-blue-500">Sign Up</button>
     </ul>
   </header>
   <main class="">
-    <section class="main-sec min-h-screen justify-center flex align-middle">
+    <section id="section-1" class="main-sec min-h-screen justify-center flex align-middle">
         <div class="container justify-around">
             <div class="container-img">
                 <img src="https://i.pinimg.com/564x/3a/34/8b/3a348bebfa83e3ed62f4734abca0e06e.jpg" class="w-6" alt="person" srcset="">
@@ -43,7 +45,7 @@
         </div>
     </section>
 
-    <section class="second-sec min-h-screen justify-center flex align-middle">
+    <section id="section-2" class="second-sec min-h-screen justify-center flex align-middle">
         <div class="content w-8/12 bg-white rounded-3xl text-center">
             <h1 class="mt-8 font-semibold text-3xl">See our Courses</h1>
         </div>
