@@ -79,6 +79,30 @@ header > ul > li {
     border: 2px solid rgb(95, 159, 255)
 }
 
+.price1, .price2, .price3 {
+    visibility: hidden;
+}
+
 .play {
     color: rgb(114, 152, 255);
+}
+
+.prices {
+    height: 600px;
+    background-color: rgb(121, 121, 121, 0.1);
+    border: 2px solid rgb(95, 159, 255);
+}
+
+.price__bg__blue {
+    height: 600px;
+    border: 2px solid transparent;
+}
+
+.text__pricing {
+    border: 2px solid rgb(95, 159, 255);
+}
+
+.text__pricing__blue {
+    color: #fefefe;
+    border: 2px solid #fefefe;
 }
