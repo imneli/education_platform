@@ -73,3 +73,12 @@ header > ul > li {
 .container-oriation {
     visibility: hidden;
 }
+
+.curso1, .curso2, .curso3 {
+    visibility: hidden;
+    border: 2px solid rgb(95, 159, 255)
+}
+
+.play {
+    color: rgb(114, 152, 255);
+}
