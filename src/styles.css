@@ -60,6 +60,12 @@ header > ul > li {
     background-size: cover;
 }
 
+.ter-sec {
+    background-image: url(../assets/img/bg2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .content { 
     height: 600px;
 }
@@ -105,4 +111,9 @@ header > ul > li {
 .text__pricing__blue {
     color: #fefefe;
     border: 2px solid #fefefe;
+}
+
+.review {
+    height: 300px;
+    background-color: #fefefe;
 }
