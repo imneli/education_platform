@@ -53,3 +53,49 @@ revelar.reveal('.price3', {
     delay: 750,
     origin: 'right'
 })
+
+revelar.reveal('.review__box__1', {
+    duration: 1500,
+    distance: '120px',
+    delay: 250,
+    origin: 'left'
+})
+
+revelar.reveal('.review__box__2', {
+    duration: 1500,
+    distance: '120px',
+    delay: 250,
+    origin: 'top'
+})
+
+revelar.reveal('.review__box__3', {
+    duration: 1500,
+    distance: '120px',
+    delay: 250,
+    origin: 'right'
+})
+
+revelar.reveal('.review__box__4', {
+    duration: 1500,
+    distance: '120px',
+    delay: 250,
+    origin: 'right'
+})
+
+revelar.reveal('.review__box__5', {
+    duration: 1500,
+    distance: '120px',
+    delay: 250,
+    origin: 'bottom'
+})
+
+revelar.reveal('.review__box__6', {
+    duration: 1500,
+    distance: '120px',
+    delay: 250,
+    origin: 'left'
+})
+
+
+
+
